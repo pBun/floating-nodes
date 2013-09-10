@@ -1,4 +1,3 @@
-
 var settings = {
     nodeRadius: 10,
     nodeRadiusMultiplier: 1,
@@ -7,10 +6,6 @@ var settings = {
     color: { h:0, s:0, v:0.25 },
     showLines: true,
     showNodes: false
-};
-
-var utils = {
-
 };
 
 var Node = function( options ) {
