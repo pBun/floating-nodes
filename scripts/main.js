@@ -85,11 +85,7 @@ var sketch = Sketch.create({
 
     update: function() {
 
-        var t, pulse;
-
-        t = this.millis;
-
-        pulse = pow( sin( t * 0.001 * PI ), 18 );
+        var t = this.millis;
 
         var node;
         for ( var i = 0, n = settings.nodes; i < n; i++ ) {
